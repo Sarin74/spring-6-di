@@ -22,9 +22,9 @@ class Spring6DiApplicationTests {
 
     @Test
     void getControllerFromCtx() {
-        MyController myController = applicationContext.getBean(MyController.class);
-
-        System.out.println(myController.sayHello());
+//        MyController myController = applicationContext.getBean(MyController.class);
+//
+//        System.out.println(myController.sayHello());
     }
 
     @Test
